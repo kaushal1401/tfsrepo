@@ -14,6 +14,7 @@ namespace hello_world
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            write host hello-hello_world
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
